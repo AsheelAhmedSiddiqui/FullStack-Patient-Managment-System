@@ -8,13 +8,12 @@ import {
 	MenubarTrigger,
 } from "@/components/ui/menubar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
 import React from "react";
 
 export default function Header() {
 	return (
-		<div className="py-4 bg-">
-			<div className="sm:container lg:container md:container xl:container 2xl:container mx-auto flex items-center justify-between">
+		<div className="py-4">
+			<div className=" w-11/12 container mx-auto flex items-center justify-between">
 				<h1 className="font-bold text-3xl font-mono">LOGO</h1>
 				<div>
 					<Menubar>
